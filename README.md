@@ -37,6 +37,10 @@
     ```
     <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
     ```
+  - Form - JSTL 
+    ``` 
+    <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+    ```
 
 ## Config jsp 
 ```
@@ -105,7 +109,4 @@ spring.mvc.view.suffix: .jsp
 </dependency>
 ```
 
-## Form - JSTL 
-``` 
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-```
+
