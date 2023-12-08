@@ -66,7 +66,7 @@ spring.mvc.view.suffix: .jsp
 <dependency>
     <groupId>org.projectlombok</groupId>
     <artifactId>lombok</artifactId>
-    <version>1.18.24</version>
+    <version>1.18.30</version>
     <scope>provided</scope>
 </dependency>
 ```
