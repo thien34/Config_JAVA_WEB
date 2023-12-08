@@ -14,7 +14,23 @@
 </dependency>
 ```
 - Khái niệm
-JSP Standard Tag Library (JSTL) là thư viện thẻ chuẩn cung cấp các thẻ để kiểm soát hành vi trang, lặp đi lặp lại và các lệnh điều khiển, các thẻ quốc tế hóa, và các thẻ SQL, mà không cần sử dụng mã Java trực tiếp.
+    - jakarta.servlet.jsp.jstl-api (JSTL API):
+      
+    Là API (Application Programming Interface) của JSTL.
+  <br>
+    Cung cấp các giao diện và lớp trừu tượng cho phát triển các thư viện thực thi JSTL.
+    <b>Không chứa mã thực thi, chỉ chứa khai báo và giao diện.</b>
+    Giúp đảm bảo tính đồng nhất và tương thích giữa các thư viện thực thi JSTL khác nhau.
+
+    - jakarta.servlet.jsp.jstl (JSTL Runtime Library):
+
+    Là thư viện thực thi của JSTL.
+  <br>
+    <b>Chứa mã nguồn thực thi cho các tag JSTL cụ thể.</b>
+    Thêm vào classpath của ứng dụng web để thực thi các tag JSTL trong mã JSP.
+    Cung cấp các thư viện để xử lý điều kiện, lặp, định dạng ngày tháng, và nhiều chức năng khác.
+    Tách biệt mã logic từ giao diện người dùng trong trang JSP.
+    Giúp làm cho mã nguồn trở nên dễ đọc và dễ bảo trì hơn.
 
 - Công dụng
   - Loop - JSTL 
