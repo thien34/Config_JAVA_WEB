@@ -13,7 +13,14 @@
     <version>3.0.1</version>
 </dependency>
 ```
-JSP Standard Tag Library (JSTL) là thư viện thẻ chuẩn cung cấp các thẻ để kiểm soát hành vi trang, lặp đi lặp lại và các lệnh điều khiển, các thẻ quốc tế hóa, và các thẻ SQL.
+- Khái niệm
+JSP Standard Tag Library (JSTL) là thư viện thẻ chuẩn cung cấp các thẻ để kiểm soát hành vi trang, lặp đi lặp lại và các lệnh điều khiển, các thẻ quốc tế hóa, và các thẻ SQL, mà không cần sử dụng mã Java trực tiếp.
+
+- Công dụng
+  - Loop - JSTL 
+    ```
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+    ```
 
 ## Config jsp 
 ```
@@ -80,10 +87,6 @@ spring.mvc.view.suffix: .jsp
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-validation</artifactId>
 </dependency>
-```
-## Loop - JSTL 
-```
-<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 ```
 
 ## Form - JSTL 
