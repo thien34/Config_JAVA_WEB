@@ -33,7 +33,7 @@
     Giúp làm cho mã nguồn trở nên dễ đọc và dễ bảo trì hơn.
 
 - Công dụng
-  - Loop - JSTL 
+  - Core - JSTL 
     ```
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
     ```
