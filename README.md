@@ -64,7 +64,6 @@ spring.mvc.view.suffix: .jsp
 </dependency>
 ```
 
-
 ## Lombox
 ```
 <dependency>
@@ -74,6 +73,17 @@ spring.mvc.view.suffix: .jsp
     <scope>provided</scope>
 </dependency>
 ```
+
+## Commons-lang3
+```
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.14.0</version>
+</dependency>
+```
+- cung cấp rất nhiều phương thức hỗ trợ các lớp Java Core, bao gồm các phương thức để xử lý: strings, numbers, dates, concurrency, reflection, … 
 
 ## MSSQL JDBC
 ``` 
