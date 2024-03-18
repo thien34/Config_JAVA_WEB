@@ -47,6 +47,16 @@
 spring.mvc.view.prefix: /WEB-INF/view/
 spring.mvc.view.suffix: .jsp
 ```
+
+## Beanutils
+```
+<dependency>
+    <groupId>commons-beanutils</groupId>
+    <artifactId>commons-beanutils</artifactId>
+    <version>1.9.4</version>
+</dependency>
+```
+
 ## Hibernate
 
 ```
