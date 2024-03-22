@@ -61,9 +61,9 @@ spring.mvc.view.suffix: .jsp
 
 ```
 <dependency>
-    <groupId>org.hibernate</groupId>
-    <artifactId>hibernate-core-jakarta</artifactId>
-    <version>5.6.10.Final</version>
+    <groupId>org.hibernate.orm</groupId>
+    <artifactId>hibernate-core</artifactId>
+    <version>6.4.4.Final</version>
 </dependency>
 ```
 
