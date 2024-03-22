@@ -97,15 +97,6 @@ spring.mvc.view.suffix: .jsp
 </dependency>
 ```
 
-## MySQL
-``` 
-<dependency>
-    <groupId>mysql</groupId>
-    <artifactId>mysql-connector-java</artifactId>
-    <version>8.0.31</version>
-</dependency>
-```
-
 ## JPA 
 ```
 <dependency>
