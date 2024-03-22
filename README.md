@@ -79,7 +79,6 @@ spring.mvc.view.suffix: .jsp
 
 ## Commons-lang3
 ```
-<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
 <dependency>
     <groupId>org.apache.commons</groupId>
     <artifactId>commons-lang3</artifactId>
