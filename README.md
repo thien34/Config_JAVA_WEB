@@ -58,7 +58,6 @@ spring.mvc.view.suffix: .jsp
 ```
 
 ## Hibernate
-
 ```
 <dependency>
     <groupId>org.hibernate.orm</groupId>
@@ -77,6 +76,15 @@ spring.mvc.view.suffix: .jsp
 </dependency>
 ```
 
+## MSSQL JDBC
+``` 
+<dependency>
+    <groupId>com.microsoft.sqlserver</groupId>
+    <artifactId>mssql-jdbc</artifactId>
+    <version>12.6.1.jre11</version>
+</dependency>
+```
+
 ## Commons-lang3
 ```
 <dependency>
@@ -86,15 +94,6 @@ spring.mvc.view.suffix: .jsp
 </dependency>
 ```
 - cung cấp rất nhiều phương thức hỗ trợ các lớp Java Core, bao gồm các phương thức để xử lý: strings, numbers, dates, concurrency, reflection, … 
-
-## MSSQL JDBC
-``` 
-<dependency>
-    <groupId>com.microsoft.sqlserver</groupId>
-    <artifactId>mssql-jdbc</artifactId>
-    <version>12.6.1.jre11</version>
-</dependency>
-```
 
 ## JPA 
 ```
