@@ -85,6 +85,15 @@ spring.mvc.view.suffix: .jsp
 </dependency>
 ```
 
+## Apache Log4j Core
+``` 
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.23.1</version>
+</dependency>
+```
+
 ## Commons-lang3
 ```
 <dependency>
