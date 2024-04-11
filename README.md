@@ -66,6 +66,15 @@ spring.mvc.view.suffix: .jsp
 </dependency>
 ```
 
+## HikariCP
+```
+<dependency>
+    <groupId>com.zaxxer</groupId>
+    <artifactId>HikariCP</artifactId>
+    <version>5.1.0</version>
+</dependency>
+```
+
 ## Lombox
 ```
 <dependency>
